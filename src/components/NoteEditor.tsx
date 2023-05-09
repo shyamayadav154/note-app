@@ -16,7 +16,7 @@ function NoteEditor(
                     <input
                         placeholder="Note title"
                         type="text"
-                        className="input-primary input input-lg w-full font-bold"
+                        className="input-primary input input-md w-full font-bold"
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                     />

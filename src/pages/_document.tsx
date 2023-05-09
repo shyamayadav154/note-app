@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html data-theme='winter' >
       <Head />
-      <body>
+      <body className=' scrollbar-hide   overflow-scroll'>
         <Main />
         <NextScript />
       </body>

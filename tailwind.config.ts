@@ -7,6 +7,7 @@ export default {
   },
   plugins: [
         require('@tailwindcss/typography'),
-        require('daisyui')
+        require('daisyui'),
+        require('tailwind-scrollbar-hide'),
     ],
 } satisfies Config;
